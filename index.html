@@ -1,538 +1,247 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+<head>
+	<title>III SALICOMP</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- meta -->
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/index.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- css -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 
-    <title>SALICOMP</title>
-  </head>
-  <body style="background-color: #0E0E0E">
+	<!-- fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700|Oxygen:400,300,700' rel='stylesheet'>
 
-    <div id="top" class="topoPagina"> <!-- TOP -->
-      <p class="display-3" style="color: #fff;font-family: 'Anton', sans-serif;">II SALICOMP</p>
-    </div>
+</head>
+<body id="home">
 
-    <div id="conteudo" style="background-color: #F2F2F2;">
-      <div class="efeitoBarra"></div>
-      <div style="text-align: center; padding-top: 50px; padding-bottom: 50px;">
-        <div class="container">
-          <p class="display-4" style="font-family: 'Anton', sans-serif;">II SALICOMP</p><br><h3><small class="text-muted">Segunda semana acadêmica de Licenciatura em Computação</small></h3>
-          <div class="progress">
-            <div id="barra" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <hr>
+	<!-- ***/ Preloader /*** -->
 
-          <div class="row">
-            <div class="col-sm" style="margin-bottom: 10px">
-              <img src="img/logo-comp.png" width="150px" style="filter: brightness(20%) grayscale(100%);"/>
-            </div>
-            <div class="col-sm align-self-center" style="text-align: center;">
-              <button id="botao-inscrever" type="button" class="btn btn-lg btn-outline-dark" style="border: 0;border-radius: 0; font-size: 3rem; font-family: 'Anton', sans-serif;">INSCREVER-SE</button>
-            </div>
-          </div>
+	<div id="preloader"></div>
 
-          <hr>
+	<!-- ***/ TOPO /*** -->
+	<div class="progress" style="height: 5px;">
+		<div id="barra" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="background-color: #00A6E4;" aria-valuemin="0" aria-valuemax="100"></div>
+	</div>
 
-          <div class="row">
-            <div class="col-sm align-self-center" style="margin-bottom: 10px">
-              <a href="#atividades" class="menu">
-                <i class="fas fa-code fa-5x"></i>
-                <h3>Atividades</h3>
-              </a>
-            </div>
-            <div class="col-sm align-self-center" style="margin-bottom: 10px">
-              <a href="#xcronograma" class="menu">
-                <i class="far fa-calendar-alt fa-5x"></i>
-                <h3>Cronograma</h3>
-              </a>
-            </div>
-            <div class="col-sm align-self-center" style="text-align: center;">
-              <a href="#palestrantes" class="menu">
-                <i class="fas fa-users fa-5x"></i>
-                <h3>Convidados & Palestrantes</h3>
-              </a>
-            </div>
-            <div class="col-sm align-self-center" style="text-align: center;">
-              <a href="#" class="menu">
-                <i class="fas fa-question fa-5x"></i>
-                <h3>Como fazer a inscrição</h3>
-              </a>
-            </div>
-          </div>
+	<section id="banner" >
+		<div class="container">
+			<div><a class="logo" href="">III SALICOMP</a></div>
+				<div class="headings">
+					<span style="color:#00A6E4;"><h2 class="wow animated fadeInDown" style="margin-bottom: 2rem">BEM VINDOS Á</h2></span>
+					<p class="wow animated fadeInLeft ye" style="margin-bottom: 2rem">III Semana Acadêmica de Licenciatura em Computação da Universidade Federal do Paraná - Setor Palotina</p>
+					<h1 class="wow animated fadeInDown" style="margin-bottom: 4rem">29 DE OUT. À <br>01 DE NOV. DE 2018</h1>
+					<center><div id="inscreverse"><button type="button" class="btn btn-outline-light btn-block btn-lg btn-topo" style="max-width: 50%">INSCREVER-SE</button></div></center>
+				</div>
+			</div>
+	</section>
 
-        </div>
-      </div>
+	<!-- ***/ ATIVIDADES /*** -->
 
-      <div class="divRestaurantes">
-        <div id="atividades" class="container" style="text-align: center">
-          <h1 class="display-4">Atividades</h1>
-          <div class="row" style="margin-top: 5vh">
-            <div class="col-sm">
-              <img src="img/palestra.png" width="120px">
-              <h3>Palestras</h3>
-              <p style="text-align: justify">Com foco em tecnologia educativa, nossas palestras abordará temas importantes relacionados a várias áreas da Computação.</p>
-            </div>
-            <div class="col-sm">
-              <img src="img/cursos.png" width="120px">
-              <h3>Mini Cursos</h3>
-              <p style="text-align: justify">Minicursos sobre tecnologias, ferramentas, frameworks e segurança ministrados por pessoas entendidas no assunto.</p>
-            </div>
-            <div class="col-sm">
-              <img src="img/workshop.png" width="120px">
-              <h3>Workshops</h3>
-              <p style="text-align: justify">Focados em assuntos específicos e com aplicações práticas será uma ótima experiência prática com a realidade acadêmica e profissional.</p>
-            </div>
-          </div>
-          <div class="row" style="margin-top: 5vh">
-            <div class="col-sm">
-              <img src="img/mesa-redonda.png" width="120px">
-              <h3>Mesa Redonda</h3>
-              <p style="text-align: justify">Oportunidades para que debates sejam levantados sobre tabus no meio acadêmico e profissional da educação e tecnologia.</p>
-            </div>
-            <div class="col-sm">
-              <img src="img/bate-papo.png" width="120px">
-              <h3>Bate-papos</h3>
-              <p style="text-align: justify">Você já pensou em ter um emprego fora do país, com TI, na sua área de especialidade? A SALICOMP trará um bate-papo interessante sobro assunto.</p>
-            </div>
-            <div class="col-sm">
-              <img src="img/competicao.png" width="120px">
-              <h3>Competições</h3>
-              <p style="text-align: justify">Afim de levar o público a interação nada melhor que um pouco de competividade. Competições para movimentar o clima da SALICOMP.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+	<section id="features" class="block" style="background-color: #ECECEC;">
+		<div class="container">
+			<div class="title-box">
+				<h1 class="block-title wow animated fadeIn">ATIVIDADES</h1>
+			</div>
+			<center>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="feature-box wow animated flipInX" data-wow-delay="0.3s">
+							<img src="assets/img/palestra.png" width="120px;">
+							<h2>Palestras</h2>
+							<p>Com foco em tecnologia educativa, nossas palestras abordará temas importantes relacionados a várias áreas da Computação e empreendedorismo</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="feature-box wow animated flipInX" data-wow-delay="0.3s">
+							<img src="assets/img/cursos.png" width="120px;">
+							<h2>Mini Cursos</h2>
+							<p>Minicursos sobre tecnologias, ferramentas, frameworks e segurança ministrados por pessoas entendidas no assunto.</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="feature-box wow animated flipInX" data-wow-delay="0.3s">
+							<img src="assets/img/workshop.png" width="120px;">
+							<h2>E Muito Mais</h2>
+							<p>Ofertaremos Workshops sobre realidade virtual, bate papo sobre vida no exterior, competição de robótica e muita interação!</p>
+						</div>
+					</div>
+				</div>
+			</center>
+		</div>
+	</section>
 
-      <div id="palestrantes" style="margin-top: 10vh;">
-        <div class="container" style="text-align: center;">
-          <h1 class="display-4">Convidados & Palestrantes</h1>
-          <div class="row" style="margin-top: 5vh">
-            <div class="col-sm">
-              <img src="img/palestrante1.jpg" class="palestrantes">
-              <h3>Tiago A. Geraldi</h3>
-              <p style="text-align: justify">Suspendisse vel lacinia dolor. Integer in nulla vel ante posuere rutrum. Ut leo nibh, sollicitudin vitae posuere ut, ultricies eget risus.</p>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-facebook-f"></i></button>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-github"></i></button>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-linkedin-in"></i></button>
-            </div>
-            <div class="col-sm">
-              <img src="img/palestrante2.jpg" class="palestrantes">
-              <h3>Airan Bertinetti</h3>
-              <p style="text-align: justify">Suspendisse vel lacinia dolor. Integer in nulla vel ante posuere rutrum. Ut leo nibh, sollicitudin vitae posuere ut, ultricies eget risus.</p>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-facebook-f"></i></button>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-github"></i></button>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-linkedin-in"></i></button>
-            </div>
-            <div class="col-sm">
-              <img src="img/palestrante3.jpg" class="palestrantes">
-              <h3>Cadu Maltego</h3>
-              <p style="text-align: justify">Suspendisse vel lacinia dolor. Integer in nulla vel ante posuere rutrum. Ut leo nibh, sollicitudin vitae posuere ut, ultricies eget risus.</p>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-facebook-f"></i></button>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-github"></i></button>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-linkedin-in"></i></button>
-            </div>
-          </div>
-          <div class="row" style="margin-top: 5vh">
-            <div class="col-sm">
-              <img src="img/palestrante4.jpg" class="palestrantes">
-              <h3>João P. Polles</h3>
-              <p style="text-align: justify">Suspendisse vel lacinia dolor. Integer in nulla vel ante posuere rutrum. Ut leo nibh, sollicitudin vitae posuere ut, ultricies eget risus.</p>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-facebook-f"></i></button>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-github"></i></button>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-linkedin-in"></i></button>
-            </div>
-            <div class="col-sm">
-              <img src="img/palestrante5.jpg" class="palestrantes">
-              <h3>Carlito Baessa</h3>
-              <p style="text-align: justify">Suspendisse vel lacinia dolor. Integer in nulla vel ante posuere rutrum. Ut leo nibh, sollicitudin vitae posuere ut, ultricies eget risus.</p>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-facebook-f"></i></button>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-github"></i></button>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-linkedin-in"></i></button>
-            </div>
-            <div class="col-sm">
-              <img src="img/palestrante6.jpg" class="palestrantes">
-              <h3>Juliano Jarbas</h3>
-              <p style="text-align: justify">Suspendisse vel lacinia dolor. Integer in nulla vel ante posuere rutrum. Ut leo nibh, sollicitudin vitae posuere ut, ultricies eget risus.</p>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-facebook-f"></i></button>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-github"></i></button>
-              <button type="button" class="btn btn-outline-dark" style="border-radius: 0"><i class="fab fa-linkedin-in"></i></button>
-            </div>
-          </div>
-        </div>
-      </div>
+	<!-- ***/  PROGRAMAÇÃO /*** -->
 
-      <div>
-        <div class="container">
-          <hr style="margin-top: 5vh; margin-top: 5vh">
-          <h1 id="xcronograma" class="display-4" style="text-align: center">Cronograma</h1>
-          <p class="lead" style="text-align: center">
-            29/10/2018 à 01/11/2018
-          </p>
-          <div class="accordion" id="cronograma">
-            <!-- DIA 1 -->
-            <div class="card rounded-0">
-              <div class="card-header" id="dia1" >
-                <h5 class="mb-0">
-                  <span class="cronograma" data-toggle="collapse" data-target="#dia1c" aria-expanded="false" aria-controls="dia1c">SEGUNDA-FEIRA</span>
-                </h5>
-              </div>
-              <div id="dia1c" class="collapse" aria-labelledby="dia1" data-parent="#cronograma">
-                <div class="container">
-                  <!-- APRESENTACAO 1 -->
-                  <div id="apresentacao1">
-                    <hr>
-                    <div class="row">
-                      <div class="col-sm  align-self-center">
-                        <h3>Empreendedorismo e Plano de Carreira em TI<br><small class="text-muted">Carlito Junior Baessa</small></h3>
-                      </div>
+	<section id="gallery" class="block">
+		<div class="container" id="programacaoo">
 
-                      <div class="col-sm-3">
-                        <h6><i class="far fa-clipboard"></i> Palestra</h6>
-                        <h6><i class="far fa-calendar"></i> 29/10/2018</h3>
-                        <h6><i class="far fa-clock"></i> 19:30H às 21:00H</h6>
-                        <h6><i class="fas fa-map-marker-alt"></i> Universidade C.Vale</h6>
-                      </div>
-                    </div>
-                    <hr>
-                  </div>
-                  <!-- APRESENTACAO 2 -->
-                  <div id="apresentacao1">
-                    <div class="row">
-                      <div class="col-sm  align-self-center">
-                        <h3>Coffee Break</h3>
-                      </div>
-                      <div class="col-sm-3">
-                        <h6><i class="far fa-clipboard"></i> Intervalo</h6>
-                        <h6><i class="far fa-calendar"></i> 29/10/2018</h3>
-                        <h6><i class="far fa-clock"></i> 21:00H às 21:30H</h6>
-                        <h6><i class="fas fa-map-marker-alt"></i> Universidade C.Vale</h6>
-                      </div>
-                    </div>
-                    <hr>
-                  </div>
-                  <!-- APRESENTACAO 3 -->
-                  <div id="apresentacao1">
-                    <div class="row">
-                      <div class="col-sm  align-self-center">
-                        <h3>Amostra de Trabalhos</h3>
-                      </div>
-                      <div class="col-sm-3">
-                        <h6><i class="far fa-clipboard"></i> Workshop</h6>
-                        <h6><i class="far fa-calendar"></i> 29/10/2018</h3>
-                        <h6><i class="far fa-clock"></i> 21:30H às 22:40H</h6>
-                        <h6><i class="fas fa-map-marker-alt"></i> Universidade C.Vale</h6>
-                      </div>
-                    </div>
-                    <hr>
-                  </div>
-                  <!-- X -->
-                </div>
-              </div>
-            </div>
-            <!-- DIA 2 -->
-            <div class="card rounded-0">
-              <div class="card-header" id="dia2">
-                <h5 class="mb-0">
-                  <span class="cronograma" data-toggle="collapse" data-target="#dia2c" aria-expanded="false" aria-controls="dia2c">TERÇA-FEIRA</span>
-                </h5>
-              </div>
-              <div id="dia2c" class="collapse" aria-labelledby="dia2" data-parent="#cronograma">
-                <div class="container">
-                  <!-- APRESENTACAO 1 -->
-                  <div id="apresentacao1">
-                    <hr>
-                    <div class="row">
-                      <div class="col-sm align-self-center">
-                        <h3>Criptografia e Segurança da Informação<br><small class="text-muted">Carlos Eduardo Montenegro</small></h3>
-                      </div>
+			<div class="title-box" style="color:#fff;"><h1 class="block-title wow animated rollIn">PROGRAMAÇÃO</h1></div>
 
-                      <div class="col-sm-3">
-                        <h6><i class="far fa-clipboard"></i> Mini Curso</h6>
-                        <h6><i class="far fa-calendar"></i> 30/10/2018</h3>
-                        <h6><i class="far fa-clock"></i> 19:30H às 21:00H</h6>
-                        <h6><i class="fas fa-map-marker-alt"></i> Laboratório de Software Livre</h6>
-                      </div>
-                    </div>
-                    <hr>
-                  </div>
-                  <!-- APRESENTACAO 2 -->
-                  <div id="apresentacao1">
-                    <div class="row">
-                      <div class="col-sm align-self-center">
-                        <h3>Arduino e Robótica Aplicada na Educação - PARTE I<br><small class="text-muted">Airan Bertinetti e Juliano Jarbas</small></h3>
-                      </div>
+			<div class="row">
+				<div class="col-sm">
+					<div id="screenshots" class="owl-carousel owl-theme">
+					  <div class="item" id="d29"><img src="assets/img/screenshot-1.png" class="img_res wow animated zoomIn sombra"></div>
+					  <div class="item" id="d29x"><img src="assets/img/screenshot-2.png" class="img_res wow animated zoomIn sombra"></div>
+					  <div class="item" id="d30"><img src="assets/img/screenshot-3.png" class="img_res wow animated zoomIn sombra"></div>
+						<div class="item" id="d30x"><img src="assets/img/screenshot-6.png" class="img_res wow animated zoomIn sombra"></div>
+					  <div class="item" id="d31"><img src="assets/img/screenshot-5.png" class="img_res wow animated zoomIn sombra"></div>
+					  <div class="item" id="d31x"><img src="assets/img/screenshot-7.png" class="img_res wow animated zoomIn sombra"></div>
+					  <div class="item" id="d1"><img src="assets/img/screenshot-8.png" class="img_res wow animated zoomIn sombra"></div>
+					  <div class="item" id="d1x"><img src="assets/img/screenshot-9.png" class="img_res wow animated zoomIn sombra"></div>
+					</div>
+					 <div class="customNavigation">
+					  <a class="btn prev gallery-nav wow animated bounceInLeft"><i class="fas fa-angle-left" style="color: #fff"></i></a>
+					  <a class="btn next gallery-nav wow animated bounceInRight"><i class="fas fa-angle-right" style="color: #fff"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-                      <div class="col-sm-3">
-                        <h6><i class="far fa-clipboard"></i> Mini Curso</h6>
-                        <h6><i class="far fa-calendar"></i> 30/10/2018</h3>
-                        <h6><i class="far fa-clock"></i> 20:00H às 22:30H</h6>
-                        <h6><i class="fas fa-map-marker-alt"></i> Sala 10 Bloco 3</h6>
-                      </div>
-                    </div>
-                    <hr>
-                  </div>
-                  <!-- APRESENTACAO 3 -->
-                  <div id="apresentacao1">
-                    <div class="row">
-                      <div class="col-sm  align-self-center">
-                        <h3>Coffe Break</h3>
-                      </div>
+	<!-- ***/  PALESTRANTES /*** -->
 
-                      <div class="col-sm-3">
-                        <h6><i class="far fa-clipboard"></i> Intervalo</h6>
-                        <h6><i class="far fa-calendar"></i> 30/10/2018</h3>
-                        <h6><i class="far fa-clock"></i> 21:00H às 21:30H</h6>
-                        <h6><i class="fas fa-map-marker-alt"></i> Sala 12 Bloco 3</h6>
-                      </div>
-                    </div>
-                    <hr>
-                  </div>
-                 </div>
-                  <!-- X -->
-                </div>
-            </div>
-            <!-- DIA 3 -->
-            <div class="card rounded-0">
-              <div class="card-header" id="dia3">
-                <h5 class="mb-0">
-                  <span class="cronograma" data-toggle="collapse" data-target="#dia3c" aria-expanded="false" aria-controls="dia3c">QUARTA-FEIRA</span>
-                </h5>
-              </div>
-              <div id="dia3c" class="collapse" aria-labelledby="dia3" data-parent="#cronograma">
-                <div class="card-body">
-                  <div class="container">
-                    <!-- APRESENTACAO 1 -->
-                    <div id="apresentacao1">
-                      <hr>
-                      <div class="row">
-                        <div class="col-sm align-self-center">
-                          <h3>Carreira de Desenvolvedor no Exterior<br><small class="text-muted">Tiago André Geraldi</small></h3>
-                        </div>
+	<section id="team" class="block" style="background-color: #ECECEC">
+		<div class="container">
 
-                        <div class="col-sm-3">
-                          <h6><i class="far fa-clipboard"></i> Palestra</h6>
-                          <h6><i class="far fa-calendar"></i> 31/10/2018</h3>
-                          <h6><i class="far fa-clock"></i> 19:00H às 20:30H</h6>
-                          <h6><i class="fas fa-map-marker-alt"></i> Sala 11 Bloco 3</h6>
-                        </div>
-                      </div>
-                      <hr>
-                    </div>
-                    <!-- APRESENTACAO 2 -->
-                    <div id="apresentacao1">
-                      <div class="row">
-                        <div class="col-sm align-self-center">
-                          <h3>Arduino e Robótica Aplicada na Educação - PARTE II<br><small class="text-muted">Airan Bertinetti e Juliano Jarbas</small></h3>
-                        </div>
+			<div class="title-box"><h1 class="block-title wow animated fadeIn">PALESTRANTES</h1></div>
 
-                        <div class="col-sm-3">
-                          <h6><i class="far fa-clipboard"></i> Mini Curso</h6>
-                          <h6><i class="far fa-calendar"></i> 31/10/2018</h3>
-                          <h6><i class="far fa-clock"></i> 20:00H às 22:30H</h6>
-                          <h6><i class="fas fa-map-marker-alt"></i> Sala 10 Bloco 3</h6>
-                        </div>
-                      </div>
-                      <hr>
-                    </div>
-                    <!-- APRESENTACAO 3 -->
-                    <div id="apresentacao1">
-                      <div class="row">
-                        <div class="col-sm  align-self-center">
-                          <h3>Coffe Break</h3>
-                        </div>
+			<div class="row" style="filter: grayscale(100%)">
+				<div class="col-md-3 col-sm-6 palestrantes">
+					<div class="team-member wow animated fadeIn" data-wow-delay=="0.3s">
+						<img src="assets/img/palestrante1.jpg" class="img_res img_redonda">
+						<h2 class="wow animated fadeInDown" data-wow-delay=="0.7s">Tiago A. Geraldi</h2>
+						<p class="wow animated fadeIn justificado" data-wow-delay=="0.7s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member wow animated fadeIn" data-wow-delay=="0.3s">
+						<img src="assets/img/palestrante2.jpg" class="img_res img_redonda">
+						<h2 class="wow animated fadeInDown" data-wow-delay=="0.7s">Airan Bertinetti</h2>
+						<p class="wow animated fadeIn justificado" data-wow-delay=="0.7s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member wow animated fadeIn" data-wow-delay=="0.3s">
+						<img src="assets/img/palestrante3.jpg" class="img_res img_redonda">
+						<h2 class="wow animated fadeInDown" data-wow-delay=="0.7s">Cadu Maltego</h2>
+						<p class="wow animated fadeIn justificado" data-wow-delay=="0.7s">Formado em Penetration Test pela Hacker Security. Atua no desenvolvimento de ferramentas para testes de segurança e com análises de riscos em ambiêntes virtuais. Hoje, faz parte do quadrado de pentesters.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member wow animated fadeIn" data-wow-delay=="0.3s">
+						<img src="assets/img/palestrante4.jpg" class="img_res img_redonda">
+						<h2 class="wow animated fadeInDown" data-wow-delay=="0.7s">João P. Polles</h2>
+						<p class="wow animated fadeIn justificado" data-wow-delay=="0.7s">É acadêmico de TADS na UNIVEL e técnico em informática pelo CEEP. Desenvolvedor Full-Stack, técnico de Informática, voluntário na Mozilla Brasil, e faz pontas de apresentador do Programa Tech.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member wow animated fadeIn" data-wow-delay=="0.3s">
+						<img src="assets/img/palestrante5.jpg" class="img_res img_redonda">
+						<h2 class="wow animated fadeInDown" data-wow-delay=="0.7s">Carlito Baessa</h2>
+						<p class="wow animated fadeIn justificado" data-wow-delay=="0.7s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member wow animated fadeIn" data-wow-delay=="0.3s">
+						<img src="assets/img/palestrante6.jpg" class="img_res img_redonda">
+						<h2 class="wow animated fadeInDown" data-wow-delay=="0.7s">Juliano Jarbas</h2>
+						<p class="wow animated fadeIn justificado" data-wow-delay=="0.7s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member wow animated fadeIn" data-wow-delay=="0.3s">
+						<img src="assets/img/palestrante7.png" class="img_res img_redonda">
+						<h2 class="wow animated fadeInDown" data-wow-delay=="0.7s">Rafael Melo</h2>
+						<p class="wow animated fadeIn justificado" data-wow-delay=="0.7s">Formado em Sistemas de Informação pela UNIMEO e especializado em Gestão da Tecnologia da Informação e Tecnologias de Business Intelligence pela UNIOESTE. Atualmente administrador de Banco de dados na C.Vale - Cooperativa Agroindustrial.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-                        <div class="col-sm-3">
-                          <h6><i class="far fa-clipboard"></i> Intervalo</h6>
-                          <h6><i class="far fa-calendar"></i> 31/10/2018</h3>
-                          <h6><i class="far fa-clock"></i> 20:30H às 21:00H</h6>
-                          <h6><i class="fas fa-map-marker-alt"></i> Sala 12 Bloco 3</h6>
-                        </div>
-                      </div>
-                      <hr>
-                    </div>
-                    <!-- APRESENTACAO 4 -->
-                    <div id="apresentacao1">
-                      <div class="row">
-                        <div class="col-sm  align-self-center">
-                          <h3>A-Frame - Realidade Virtual com Linguagens Web<br><small class="text-muted">João Paulo Polles</small></h3>
-                        </div>
+	<!-- ***/	SOBRE /*** -->
 
-                        <div class="col-sm-3">
-                          <h6><i class="far fa-clipboard"></i> Workshop</h6>
-                          <h6><i class="far fa-calendar"></i> 31/10/2018</h3>
-                          <h6><i class="far fa-clock"></i> 21:00H às 22:40H</h6>
-                          <h6><i class="fas fa-map-marker-alt"></i> Sala 11 Bloco 3</h6>
-                        </div>
-                      </div>
-                      <hr>
-                    </div>
-                    <!-- X -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- DIA 4 -->
-            <div class="card rounded-0">
-              <div class="card-header" id="dia4">
-                <h5 class="mb-0">
-                  <span class="cronograma" data-toggle="collapse" data-target="#dia4c" aria-expanded="false" aria-controls="dia4c">QUINTA-FEIRA</span>
-                </h5>
-              </div>
-              <div id="dia4c" class="collapse" aria-labelledby="dia4" data-parent="#cronograma">
-                <div class="card-body">
-                  <div class="container">
-                    <!-- APRESENTACAO 1 -->
-                    <div id="apresentacao1">
-                      <hr>
-                      <div class="row">
-                        <div class="col-sm align-self-center">
-                          <h3>Amostra e Desafio de Robótica<br><small class="text-muted">Airan Bertinetti</small></h3>
-                        </div>
+	<section id="testimonial" class="block">
+		<div class="container">
+			<div class="title-box"><h1 class="block-title wow animated fadeIn">UM POUCO SOBRE NÓS</div>
 
-                        <div class="col-sm-3">
-                          <h6><i class="far fa-clipboard"></i> Desafio</h6>
-                          <h6><i class="far fa-calendar"></i> 01/11/2018</h3>
-                          <h6><i class="far fa-clock"></i> 14:30H às 17:30H</h6>
-                          <h6><i class="fas fa-map-marker-alt"></i> Sala 10 Bloco 3</h6>
-                        </div>
-                      </div>
-                      <hr>
-                    </div>
-                    <!-- APRESENTACAO 2 -->
-                    <div id="apresentacao1">
-                      <div class="row">
-                        <div class="col-sm align-self-center">
-                          <h3>DBAs, O que são? Onde vivem? Do que se alimentam?<br><small class="text-muted">Rafael Stella Melo</small></h3>
-                        </div>
+			<div class="row" style="margin-bottom: 5%">
+				<div class="col-sm-4">
 
-                        <div class="col-sm-3">
-                          <h6><i class="far fa-clipboard"></i> Palestra</h6>
-                          <h6><i class="far fa-calendar"></i> 01/11/2018</h3>
-                          <h6><i class="far fa-clock"></i> 19:30H às 21:00H</h6>
-                          <h6><i class="fas fa-map-marker-alt"></i> Universidade C.Vale</h6>
-                        </div>
-                      </div>
-                      <hr>
-                    </div>
-                    <!-- APRESENTACAO 3 -->
-                    <div id="apresentacao1">
-                      <div class="row">
-                        <div class="col-sm  align-self-center">
-                          <h3>Coffe Break</h3>
-                        </div>
+					<center><img src="assets/img/logo-branca-transp.png" width="250px">
+					<p class="review-star" style="color: #fff">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="far fa-star"></i>
+					</p></center>
+				</div>
+				<div class="col-sm-8 align-self-center">
+					<p class="review-desc">
+						O Centro Acadêmico de Licenciatura em Computação - CALICOMP, nasceu da necessidade de representar democraticamente os discentes do curso de Licenciatura em Computação. Estamos trabalhando para garantir um ensino de qualidade para os acadêmicos.
+					</p>
+				</div>
 
-                        <div class="col-sm-3">
-                          <h6><i class="far fa-clipboard"></i> Intervalo</h6>
-                          <h6><i class="far fa-calendar"></i> 01/11/2018</h3>
-                          <h6><i class="far fa-clock"></i> 21:00H às 21:30H</h6>
-                          <h6><i class="fas fa-map-marker-alt"></i> Universidade C.Vale</h6>
-                        </div>
-                      </div>
-                      <hr>
-                    </div>
-                    <!-- APRESENTACAO 4 -->
-                    <div id="apresentacao1">
-                      <div class="row">
-                        <div class="col-sm  align-self-center">
-                          <h3>Encerramento<br><small class="text-muted">Julio Cezar da Silva Ferreira</small></h3>
-                        </div>
+			</div>
+		</div>
+	</section>
 
-                        <div class="col-sm-3">
-                          <h6><i class="far fa-clipboard"></i> Encerramento</h6>
-                          <h6><i class="far fa-calendar"></i> 01/11/2018</h3>
-                          <h6><i class="far fa-clock"></i> 21:30H às 22:00H</h6>
-                          <h6><i class="fas fa-map-marker-alt"></i> Universidade C.Vale</h6>
-                        </div>
-                      </div>
-                      <hr>
-                    </div>
-                    <!-- X -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- X -->
-          </div>
-        </div>
-      </div>
+	<!-- ***/ INFO /*** -->
 
-      <p style="margin-top: 5%; visibility: hidden;">/*Espaco*/</p>
-      <div class="efeitoBarra"></div>
-    </div>
+	<section id="subscribe">
+		<div class="container">
+			<p class="susbcribe-text wow animated zoomIn"><strong> Fique mais perto, fale com a gente! </strong><i class="far fa-smile-wink"></i><br>Para qualquer informação sobre a semana acadêmica, feedback ou propostas, entre em contato conosco.</i></p>
+		</div>
+	</section>
+
+	<!-- ***/ Footer /*** -->
+	<div id="contato" style="color: #fff"> <!-- FOOTER -->
+		<div class="container footer_n">
+			<div style="text-align: center; margin-top: 50px; margin-bottom: 50px">
+				<a href="#home" class="menu-f footer-link"><i class="fas fa-hand-peace fa-4x"></i><h4>VOLTAR AO TOPO</h4></a>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6" style="text-align: left; color: #fff">
+					<h4>CONTATO</h4>
+					<a><strong>Telefone [Administrativo]:</strong> (45) 99823-0910</a><br>
+					<a><strong>Telefone [Financeiro]:</strong> (45) 99926-4515</a><br>
+					<a><strong>Endereço:</strong> Rua Pioneiro, 2153. Palotina-PR, 85950-000.</a><br>
+					<button type="button" class="btn btn-outline-light" style="border-radius: 0" onclick="window.open('https://www.facebook.com/calicompufpr/','_blank');"><i class="fab fa-facebook-f"></i> Facebook</button>
+			  </div>
+
+				<div class="col-md-6 align-self-center" style="text-align: center; margin-top: 10px">
+					<a href="index.html"><img src="assets/img/logo-comp.png" width="100px" style="margin-right: 2%"/></a>
+					<a href="http://www.ufpr.br" target="_blank"><img src="assets/img/logo_ufpr_branca.png" width="130px" style="filter: grayscale(0%); margin-right: 2%"/></a>
+					<a href="http://www.palotina.ufpr.br" target="_blank"><img src="assets/img/logo_ufprP_branca.png" width="120px"/></a>
+				</div>
+			</div>
+
+			<div>
+				<p style="margin-top: 2%; text-align: center">2018. <strong>CALICOMP</strong> - Centro Acadêmico de Licenciatura em Computação.</p>
+			</div>
+		</div>
+	</div>
 
 
+	<!-- All the scripts -->
 
-    <div id="contato" style="color: #fff"> <!-- FOOTER -->
-      <div class="container">
-        <div style="text-align: center; margin-top: 50px; margin-bottom: 50px">
-            <a href="#conteudo" class="menu-f"><i class="fas fa-hand-peace fa-4x"></i><h4 style="font-family: 'Anton', sans-serif;">VOLTAR AO TOPO</h4></a>
-        </div>
+	<script src="assets/js/jquery-2.1.3.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/owl.carousel.js"></script>
+	<script src="assets/js/script.js"></script>
 
-        <div class="row">
-          <div class="col-sm" style="text-align: left">
-            <h4 style="font-family: 'Anton', sans-serif;">CONTATO</h4>
-            <a><strong>E-Mail:</strong> contato@conta.com</a><br>
-            <a><strong>Telefone:</strong> (44) 3211-8500 / (44) 3211-8501</a><br>
-            <a><strong>Endereço:</strong> Rua Pioneiro, 2153. Palotina-PR, 85950-000.</a><br>
-            <button type="button" class="btn btn-outline-light" style="border-radius: 0"><i class="fab fa-facebook-f"></i> Facebook</button>
-          </div>
-
-          <div class="col-sm align-self-center" style="text-align: center;">
-            <a href=""><img src="img/logo-comp.png" width="100px" style="margin-right: 2%"/></a>
-            <a href="http://www.ufpr.br" target="_blank"><img src="img/logo_ufpr_branca.png" width="130px" style="filter: grayscale(0%); margin-right: 2%"/></a>
-            <a href="http://www.palotina.ufpr.br" target="_blank"><img src="img/logo_upfr_palotina.png" width="120px" style="filter: invert(100%) grayscale(100%)"/></a>
-          </div>
-
-        </div>
-
-        <div>
-          <p style="margin-top: 2%; text-align: center">2018. <strong>CALICOMP</strong> - Centro Acadêmico de Licenciatura em Computação.</p>
-        </div>
-      </div>
-    </div>
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <script>
-      function verifica_data(data_i, data_f){
-        var x = data_f.getTime() - data_i.getTime();
-        return 100-(Math.round((x/86400)/1000));
-      }
-
-      $(document).ready(function(){
-        var url = 0;
-        switch(Math.floor(Math.random() * 2)){
-          case 0:
-            url = "img/banner-principal.png";
-            break;
-
-          case 1:
-            url = "img/banner-principal.png";
-            break;
-        }
-        $('#top')[0].style.backgroundImage = "url('"+url+"')";
-
-        //BARRA
-        var porcentagem = verifica_data(new Date(), new Date(2018, 10-1, 29));
-
-        $('#barra')[0].style.width = porcentagem+"%";
-
-        if(porcentagem >= 100 && porcentagem <= 103){ // IF -> 100% -> BG VERDE
-          $('#barra').addClass('bg-success');
-          $('#botao-inscrever').addClass('disabled');
-        } else if(porcentagem > 103){
-          $('#barra').addClass('bg-danger');
-          $('#botao-inscrever').addClass('disabled');
-        }
-      });
-    </script>
-  </body>
+</body>
 </html>
