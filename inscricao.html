@@ -17,8 +17,8 @@
     <section id="banner" style="height: 100vh; color: #fff" class="vcentro">
         <div class="content">
           <div style="text-align: center">
-            <h1 class="display-3"> III SALICOMP </h1>
-            <h1 class="display-4"> INSCRIÇÕES </h1>
+            <p class="display-3 tituloInscricoes"><strong> III SALICOMP </strong></p>
+            <p class="display-4"> INSCRIÇÕES </p>
           </div>
         </div>
     </section>
@@ -27,31 +27,38 @@
       <div class="container" style="padding-top: 10%; padding-bottom: 10%">
 
         <div class="card" style="border-radius: 0">
-          <div class="card-header">
-            Inscrição
-          </div>
+          <div style="background-color: #009EDE; padding-bottom: 5px"></div>
           <div class="card-body">
             <center>
-              <h1 class="display-4" style="text-align: center">Inscrever-se </h1>
-              <p class="card-text" style="text-align: justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla lacinia quam, in lobortis nibh ullamcorper sed. Morbi lacus enim, elementum at orci a, rutrum convallis tellus. Donec finibus erat vitae euismod tincidunt. Aliquam ut diam facilisis, dapibus nibh imperdiet, lobortis magna. Aenean ac erat metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin lacus mi, consectetur sit amet blandit eu, ornare quis urna. Nulla facilisi. Ut nunc leo, euismod vel sem id, viverra interdum dui. Quisque viverra, odio eget mollis convallis, ex est elementum purus, a ullamcorper est libero at diam. Aliquam sollicitudin sagittis augue, nec sodales ante porttitor eget.</p>
+              <h1 class="display-4" style="text-align: center">Inscrever-se </h1><br><br>
+              <a class="card-text"><strong>III Semana Acadêmica Licenciatura em Computação - III SALICOMP</strong></a><br>
+              <a><strong>Tema:</strong>Tecnologia Educativa</a><br>
+              <a><strong>Locais de realização do III SALICOMP</strong></a><br><br>
 
-              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+              <a><strong>PALESTRAS</strong></a>
+              <a>ASFUCA - Palotina/PR</a><br>
+              <a>Horário: 19H às 22h</a><br><br>
+
+              <a><strong>MINI CURSOS/WORKSHOPS/BATE-PAPOS/COMPETIÇÕES</strong></a><br>
+              <a>Universidade Federal do Paraná - UFPR Setor Palotina - Bloco Didático III</a>
+              <a>Horário: 19h30 às 22h40</a><br>
+
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-top: 3%">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <table>
-                <tr><td><input type="hidden" name="on0" value="OPÇÕES">OPÇÕES</td></tr><tr><td><select name="os0">
-                	<option value="Palestra(Empreendedorismo e Plano de Carreira em TI)">Palestra(Empreendedorismo e Plano de Carreira em TI) R$10,00</option>
-                	<option value="Mini Curso Arduino e Robótica Aplicada na Educação">Mini Curso Arduino e Robótica Aplicada na Educação R$15,00</option>
-                	<option value="Mini Curso Criptografia e Segurança da Informação">Mini Curso Criptografia e Segurança da Informação R$15,00</option>
-                	<option value="Palestra Carreira de Desenvolvedor no Exterior">Palestra Carreira de Desenvolvedor no Exterior R$10,00</option>
-                	<option value="Workshop A-Frame - Realidade Virtual com Linguagens Web">Workshop A-Frame - Realidade Virtual com Linguagens Web R$10,00</option>
-                	<option value="Opção Palestra DBA(Administrador de Banco de Dados)">Opção Palestra DBA(Administrador de Banco de Dados) R$10,00</option>
+                <tr><td><input type="hidden" name="on0" value="OPÇÕES"></td></tr><tr><td><select name="os0">
                 	<option value="Semana Completa">Semana Completa R$50,00</option>
+                	<option value="Palestra(Empreendedorismo e Plano de Carreira em TI)">Palestra(Empreendedorismo e Plano de Carreira em TI) R$10,00</option>
+                	<option value="Mini Curso Criptografia e Segurança da Informação">Mini Curso Criptografia e Segurança da Informação R$15,00</option>
+                	<option value="Mini Curso Arduíno e Robótica Aplicada na Educação">Mini Curso Arduíno e Robótica Aplicada na Educação R$20,00</option>
+                	<option value="Bate-papo Carreira de Desenvolvedor no Exterior">Bate-papo Carreira de Desenvolvedor no Exterior R$10,00</option>
+                	<option value="Workshop A-Frame - Realidade Virtual com Linguagem Web">Workshop A-Frame - Realidade Virtual com Linguagem Web R$10,00</option>
+                	<option value="Palestra DBA(Administrador de Banco de Dados)">Palestra DBA(Administrador de Banco de Dados) R$10,00</option>
                 </select> </td></tr>
                 </table>
-                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
                 ">
-                <br>
-                <button type="submit" class="btn btn-primary" style="border-radius: 0"><i class="fas fa-cart-plus"></i> ADICIONAR AO CARRINHO</button>
+                <button type="submit" class="btn btn-primary" style="border-radius: 0; margin-top: 2%"><i class="fas fa-cart-plus"></i> ADICIONAR CARRINHO</button>
               </form>
 
               <hr>
@@ -68,9 +75,7 @@
         </div>
 
         <div class="card" style="border-radius: 0; margin: 2% 0 2% 0">
-          <div class="card-header">
-            Cronograma
-          </div>
+          <div style="background-color: #009EDE; padding-bottom: 5px"></div>
           <div class="card-body">
             <h1 class="display-4" style="text-align: center">Cronograma</h1>
             <p class="lead" style="text-align: center">
@@ -91,14 +96,14 @@
                       <hr>
                       <div class="row">
                         <div class="col-sm  align-self-center">
-                          <h3>Empreendedorismo e Plano de Carreira em TI<br><small class="text-muted">Carlito Junior Baessa</small></h3>
+                          <h3>Transforme só o necessário<br><small class="text-muted">Carlito Junior Baessa</small></h3>
                         </div>
 
                         <div class="col-sm-3">
                           <h6><i class="far fa-clipboard"></i> Palestra</h6>
                           <h6><i class="far fa-calendar"></i> 29/10/2018</h3>
                           <h6><i class="far fa-clock"></i> 19:30H às 21:00H</h6>
-                          <h6><i class="fas fa-map-marker-alt"></i> C.Vale</h6>
+                          <h6><i class="fas fa-map-marker-alt"></i> ASFUCA</h6>
                         </div>
                       </div>
                       <hr>
@@ -113,7 +118,7 @@
                           <h6><i class="far fa-clipboard"></i> Intervalo</h6>
                           <h6><i class="far fa-calendar"></i> 29/10/2018</h3>
                           <h6><i class="far fa-clock"></i> 21:00H às 21:30H</h6>
-                          <h6><i class="fas fa-map-marker-alt"></i> C.Vale</h6>
+                          <h6><i class="fas fa-map-marker-alt"></i> ASFUCA</h6>
                         </div>
                       </div>
                       <hr>
@@ -128,7 +133,7 @@
                           <h6><i class="far fa-clipboard"></i> Workshop</h6>
                           <h6><i class="far fa-calendar"></i> 29/10/2018</h3>
                           <h6><i class="far fa-clock"></i> 21:30H às 22:40H</h6>
-                          <h6><i class="fas fa-map-marker-alt"></i> C.Vale</h6>
+                          <h6><i class="fas fa-map-marker-alt"></i> ASFUCA</h6>
                         </div>
                       </div>
                       <hr>
@@ -151,7 +156,7 @@
                       <hr>
                       <div class="row">
                         <div class="col-sm align-self-center">
-                          <h3>Criptografia e Segurança da Informação<br><small class="text-muted">Carlos Eduardo Montenegro</small></h3>
+                          <h3>Criptografia e Segurança da Informação<br><small class="text-muted">Cadu Maltego</small></h3>
                         </div>
 
                         <div class="col-sm-3">
@@ -317,7 +322,7 @@
                             <h6><i class="far fa-clipboard"></i> Palestra</h6>
                             <h6><i class="far fa-calendar"></i> 01/11/2018</h3>
                             <h6><i class="far fa-clock"></i> 19:30H às 21:00H</h6>
-                            <h6><i class="fas fa-map-marker-alt"></i> C.Vale</h6>
+                            <h6><i class="fas fa-map-marker-alt"></i> ASFUCA</h6>
                           </div>
                         </div>
                         <hr>
@@ -333,7 +338,7 @@
                             <h6><i class="far fa-clipboard"></i> Intervalo</h6>
                             <h6><i class="far fa-calendar"></i> 01/11/2018</h3>
                             <h6><i class="far fa-clock"></i> 21:00H às 21:30H</h6>
-                            <h6><i class="fas fa-map-marker-alt"></i> C.Vale</h6>
+                            <h6><i class="fas fa-map-marker-alt"></i> ASFUCA</h6>
                           </div>
                         </div>
                         <hr>
@@ -349,7 +354,7 @@
                             <h6><i class="far fa-clipboard"></i> Encerramento</h6>
                             <h6><i class="far fa-calendar"></i> 01/11/2018</h3>
                             <h6><i class="far fa-clock"></i> 21:30H às 22:00H</h6>
-                            <h6><i class="fas fa-map-marker-alt"></i> C.Vale</h6>
+                            <h6><i class="fas fa-map-marker-alt"></i> ASFUCA</h6>
                           </div>
                         </div>
                         <hr>
@@ -364,15 +369,13 @@
         </div>
 
         <div class="card" style="border-radius: 0">
-          <div class="card-header">
-            FAQ
-          </div>
+          <div style="background-color: #009EDE; padding-bottom: 5px"></div>
           <div class="card-body">
             <h1 class="display-4" style="text-align: center">FAQ </h1>
             <hr>
-            <p>P: Quais métodos que posso utilizar para pagar minha inscrição?<br>R: Todas transações serão realizadas somente via PayPal.</p>
-            <p>P: Por que utilizamos somente o PayPal como forma de pagamento?<br>R: ....</p>
-            <p>P: ....<br>R: ....</p>
+            <p><strong>Quais métodos que posso utilizar para pagar minha inscrição?</strong><br>Todas transações serão realizadas somente via PayPal.</p>
+            <p><strong>Por que utilizamos somente o PayPal como forma de pagamento?</strong><br>Porque é mais seguro e rápido.</p>
+            <p><strong>Como faço para ir na ASFUCA no dia das paralestras</strong><br>O CALICOMP irá disponibilizar um ônibus no dia das palestras para os alunos que não tem como ir por conta, com horário e local a ser divulgado</p>
           </div>
         </div>
 
