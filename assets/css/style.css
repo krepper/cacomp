@@ -593,7 +593,6 @@ a:hover {
     border-color: #fff;
 }
 p.client-name {
-    float: right;
     font-size: 30px;
     color: #fff;
     display: inline-block;
@@ -672,11 +671,11 @@ p.client-name {
 }
 
 .tituloInscricoes{
-  color: #009EDE;
+  color: #44caff;
 }
 
 .tituloInscricoes:hover{
-  color: #32a5d4;
+  color: #d5f1fc;
 }
 
 /* /////////////////////////////////////////////////////////////////////
@@ -686,7 +685,7 @@ p.client-name {
 
 /*1340px - 1170px*/
 
-@media all and (max-width: 1340px) and (min-width: 1170px;) {
+@media all and (max-width: 1340px) and (min-width: 1170px) {
     .address-list li {
         font-size: 18px;
     }
