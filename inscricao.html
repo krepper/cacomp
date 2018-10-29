@@ -30,7 +30,7 @@
           <div style="background-color: #009EDE; padding-bottom: 5px"></div>
           <div class="card-body">
             <center>
-              <h1 class="display-4" style="text-align: center">Inscrever-se </h1><br><br>
+              <h1 class="display-4" style="text-align: center"><b>Inscrever-se</b></h1><br><br>
               <a class="card-text"><strong>III Semana Acadêmica Licenciatura em Computação - III SALICOMP</strong></a><br>
               <a><strong>Tema:</strong>Tecnologia Educativa</a><br>
               <a><strong>Locais de realização do III SALICOMP</strong></a><br><br>
@@ -41,7 +41,9 @@
 
               <a><strong>MINI CURSOS/WORKSHOPS/BATE-PAPOS/COMPETIÇÕES</strong></a><br>
               <a>Universidade Federal do Paraná - UFPR Setor Palotina - Bloco Didático III</a>
-              <a>Horário: 19h30 às 22h40</a><br>
+              <a>Horário: 19h30 às 22h40</a><br><br>
+              <!-- 
+              <a><strong>PARA PAGAMENTO COM CARTÃO DE CRÉDITO</strong></a><br>
 
               <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-top: 3%">
                 <input type="hidden" name="cmd" value="_s-xclick">
@@ -68,16 +70,25 @@
                 <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
                 ">
                 <button type="submit" class="btn btn-success" style="border-radius: 0"><i class="fas fa-shopping-cart"></i> VER CARRINHO</button>
-              </form>
-
+              </form><br><br>
+              <a><strong>PARA PAGAMENTO COM BOLETO</strong></a><br><br>
+              <a>Para efetuar o pagamento via boleto basta clicar no botão abaixo preencher os <br>dados do formulário, nós encaminharemos em seu e-mail o boleto para pagamento ou informá-lo <br>como vamos recolher o dinheiro. Muito Obrigado!<br><br> Á Direção</a><br><br>
+              <a href="https://goo.gl/hXoP3P" target="_blank" button type="button" class="btn btn-outline-primary">CLIQUE AQUI</button></a>
             </center>
           </div>
-        </div>
+        </div>-->
 
+        <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">AS INSCRIÇÕES ENCERRARAM!</h1>
+    <a class="lead">Entre em contato com Administrativo para verificar vagas disponíveis.</a>
+  </div>
+</div>
+        
         <div class="card" style="border-radius: 0; margin: 2% 0 2% 0">
           <div style="background-color: #009EDE; padding-bottom: 5px"></div>
           <div class="card-body">
-            <h1 class="display-4" style="text-align: center">Cronograma</h1>
+            <h1 class="display-4" style="text-align: center"><b>Cronograma</b></h1>
             <p class="lead" style="text-align: center">
               29/10/2018 à 01/11/2018
             </p>
@@ -371,11 +382,19 @@
         <div class="card" style="border-radius: 0">
           <div style="background-color: #009EDE; padding-bottom: 5px"></div>
           <div class="card-body">
-            <h1 class="display-4" style="text-align: center">FAQ </h1>
+            <h1 class="display-4" style="text-align: center"><b>FAQ</b> </h1>
             <hr>
-            <p><strong>Quais métodos que posso utilizar para pagar minha inscrição?</strong><br>Todas transações serão realizadas somente via PayPal.</p>
+            <p><strong>Quais métodos posso utilizar para pagar minha inscrição?</strong><br>Todas transações serão realizadas somente no site SALICOMP, via PayPal até o <b>dia 23/10</b>.</p>
             <p><strong>Por que utilizamos somente o PayPal como forma de pagamento?</strong><br>Porque é mais seguro e rápido.</p>
-            <p><strong>Como faço para ir na ASFUCA no dia das paralestras</strong><br>O CALICOMP irá disponibilizar um ônibus no dia das palestras para os alunos que não tem como ir por conta, com horário e local a ser divulgado</p>
+            <p><strong>Como faço para ir na ASFUCA no dia das palestras?</strong><br>O CALICOMP irá disponibilizar um ônibus no dia das palestras para os alunos que não tem como ir por conta, com horário e local a ser divulgado. </p>
+            <p><strong>Como posso me inscrever para participar da amostra de trabalhos?</strong><br>Basta clicar neste link: <a href="https://goo.gl/rS637u" target="_blank"><strong>https://goo.gl/rS637u</strong></a>, preencher o formulário e aguardar o resultado.</p>
+            <p><strong>Eu ganho falta se não for no SALICOMP?</strong><br>Sim! Inclusive o certificado do SALICOMP contará como horas formativas.</p>
+            <p><strong>Como faço para adquirir o meu certificado?</strong><br>Os certificados ficaram disponíveis no site do SALICOMP após o evento. NÃO faremos certificados impressos e nem encaminharemos em e-mails, então fique atento as notícias na <a href="https://www.facebook.com/calicompufpr/" target="_blank"><strong>página do CALICOMP</strong></a>.</p>
+            <p><strong>Preciso levar algum material para os cursos ou palestras?</strong><br>Não. O CALICOMP disponibilizará todo material referente a cada mini curso e para palestras, caso precise de algo anunciaremos na página do CALICOMP.</p>
+            <p><strong>Posso efetuar o pagamento no dia do evento?</strong><br>Sim! Porém apenas para o Presidente do CALICOMP, Júlio Cezar, em dinheiro trocado!</p>
+            <p><strong>Existe a possibilidade de isentar minha inscrição?</strong><br>Sim! Apenas bolsistas PROBEM podem pedir a isenção das inscrições, ATENTEM-SE ao prazo. Até o dia 15/10/18, após somente com pagamento.</p>
+            <p><strong>Como faço para pedir isenção da inscrição?</strong><br>Basta enviar um e-mail para <b><i>calicomp.ufpr@gmail.com</i></b> ou <b><i>calicompufprpalotina@gmail.com</i></b> com seu nome completo, GRR, opção de cursos, palestras ou a semana inteira até o dia 15/10/18.</p><br><br>
+            <p><strong>OUTRAS DÚVIDAS FAVOR ENTRAR EM CONTATO COM O ADMINISTRATIVO DO CALICOMP!</p>
           </div>
         </div>
 
@@ -391,9 +410,9 @@
   			<div class="row">
   				<div class="col-md-6" style="text-align: left; color: #fff">
   					<h4>CONTATO</h4>
-  					<a><strong>Telefone [Administrativo]:</strong> (45) 99823-0910</a><br>
-  					<a><strong>Telefone [Financeiro]:</strong> (45) 99926-4515</a><br>
-  					<a><strong>Endereço:</strong> Rua Pioneiro, 2153. Palotina-PR, 85950-000.</a><br>
+  					<a>Telefone [Administrativo]: (45) 99823-0910</a><br>
+  					<a>Telefone [Financeiro]: (45) 99926-4515</a><br>
+  					<a>Endereço: Rua Pioneiro, 2153. Palotina-PR, 85950-000.</a><br>
   					<button type="button" class="btn btn-outline-light" style="border-radius: 0" onclick="window.open('https://www.facebook.com/calicompufpr/','_blank');"><i class="fab fa-facebook-f"></i> Facebook</button>
   			  </div>
 
@@ -401,6 +420,7 @@
   					<a href="index.html"><img src="assets/img/logo-comp.png" width="100px" style="margin-right: 2%"/></a>
   					<a href="http://www.ufpr.br" target="_blank"><img src="assets/img/logo_ufpr_branca.png" width="130px" style="filter: grayscale(0%); margin-right: 2%"/></a>
   					<a href="http://www.palotina.ufpr.br" target="_blank"><img src="assets/img/logo_ufprP_branca.png" width="120px"/></a>
+            <a href="http://www.palotina.ufpr.br" target="_blank"><img src="assets/img/selo.png" width="90px" style="margin-right: 2%"/></a>
   				</div>
   			</div>
 

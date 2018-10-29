@@ -25,14 +25,14 @@ jQuery(document).ready(function($) {
     var x = new Date();
     eventos_hoje(x.getDate());
     //$('#inscreverse').addClass('invisible');
-    var msg = "<a href='#programacaoo' class='btn btn-outline-light btn-block btn-lg btn-topo' style='max-width: 50%; margin-bottom: 1%'>PROGRAMAÇÃO</a>";
-    $('#inscreverse').html(msg);
+    //var msg = "<a href='#programacaoo' class='btn btn-outline-light btn-block btn-lg btn-topo' style='max-width: 50%; margin-bottom: 1%'>PROGRAMAÇÃO</a>";
+    //$('#inscreverse').html(msg);
 
   } else if(porcentagem > 103){
     // NOVO BOTÃO
-    var botaoCertificados = "<button type='button' class='btn btn-outline-light btn-block btn-lg btn-topo' style='max-width: 50%'>CERTIFICADOS</button>";
+    //var botaoCertificados = "<button type='button' class='btn btn-outline-light btn-block btn-lg btn-topo' style='max-width: 50%'>CERTIFICADOS</button>";
     $('#barra').addClass('bg-danger');
-    $('#inscreverse').html(botaoCertificados);
+    //$('#inscreverse').html(botaoCertificados);
   }
 
   $(window).load(function(){
